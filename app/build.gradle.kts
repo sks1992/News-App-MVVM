@@ -100,9 +100,12 @@ dependencies {
     annotationProcessor(libs.androidx.room.compiler)
     //annotationProcessor("androidx.room:room-compiler:2.6.1")
 
-    //glide view
+    //glide image dependencies
     implementation(libs.glide)
     //implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    //view pager 2
+    implementation(libs.androidx.viewpager2)
 }
 
 // Allow references to generated code
