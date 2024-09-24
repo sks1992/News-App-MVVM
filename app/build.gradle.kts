@@ -106,6 +106,10 @@ dependencies {
 
     //view pager 2
     implementation(libs.androidx.viewpager2)
+
+    //okHttp dependencies
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
 }
 
 // Allow references to generated code
